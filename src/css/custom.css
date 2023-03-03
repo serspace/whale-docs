@@ -39,3 +39,7 @@
 footer.footer.footer--dark {
   background-color: var(--custom-surface);
 }
+[data-theme='light'] footer.footer .footer__link-item:hover,
+[data-theme='light'] footer.footer .footer__link-item:focus {
+  color: #fff !important;
+}
