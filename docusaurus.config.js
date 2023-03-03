@@ -11,7 +11,7 @@ const config = {
   favicon: 'fav/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://serspace.github.com/',
+  url: 'https://serspace.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/whale-docs/',
@@ -19,14 +19,14 @@ const config = {
   deploymentBranch: 'main',
   // @ dev added trailing slashes 
   trailingSlash: false,
-  
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'serspace', // Usually your GitHub org/user name.
   projectName: 'whale-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
 
   // Even if you don't use internalization, you can use this field to set useful
