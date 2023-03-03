@@ -1,0 +1,41 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #4072f9;
+  --ifm-color-primary-dark: #2759E0;
+  --ifm-color-primary-darker: #0D3FC6;
+  --ifm-color-primary-darkest: #0026AD;
+  --ifm-color-primary-light: #5A8CFF;
+  --ifm-color-primary-lighter: #73A5FF;
+  --ifm-color-primary-lightest: #8DBFFF;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --custom-surface: #4072f9;
+  --ifm-heading-font-family: 'Sora';
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4072f9;
+  --ifm-color-primary-dark: #2759E0;
+  --ifm-color-primary-darker: #0D3FC6;
+  --ifm-color-primary-darkest: #0026AD;
+  --ifm-color-primary-light: #5A8CFF;
+  --ifm-color-primary-lighter: #73A5FF;
+  --ifm-color-primary-lightest: #8DBFFF;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --custom-surface: #242526;
+}
+
+/* @dev I haven't found any other way yet, and im not looking */
+footer.footer.footer--dark {
+  background-color: var(--custom-surface);
+}

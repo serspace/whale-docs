@@ -1,0 +1,14 @@
+{
+    "name": "Whale Chat Bot",
+    "short_name": "Whale Chat Bot",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#4072f9",
+    "background_color": "#4072f9",
+    "display": "standalone"
+}
